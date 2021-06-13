@@ -109,6 +109,11 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
+.contact-card {
+  margin-top: 100px;
+}
+
 .card:hover {
   border-color: #ff99ff;
 }
