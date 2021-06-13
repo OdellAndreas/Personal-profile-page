@@ -55,9 +55,20 @@ a:hover {
   color: white
 }
 
+.exp-header {
+  text-align: center;
+  background: url('images/experience.png') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+header {
+  line-height: 1.5;
+}
+
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/stockholm.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,7 +81,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 5px dotted rgb(218, 26, 26);
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -89,7 +100,7 @@ header .profile-image:hover {
   color: yellow;
 }
 .card {
-  margin: 30px;
+  margin: 20px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
